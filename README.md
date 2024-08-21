@@ -26,3 +26,18 @@ E por último, abra o projeto android no Android Studio e execute a aplicação
 npx cap open android
 ```
 
+Habilitar o Hot Reload no Capacitor (para Desenvolvimento)
+Você pode usar o Hot Reload durante o desenvolvimento, o que garante que as mudanças sejam imediatamente refletidas no dispositivo:
+
+```bash
+npx cap serve android
+```
+
+Use um Servidor Local para desenvolver o projeto da parte web (pasta www)
+Para evitar problemas com o protocolo file://, você pode servir seu projeto usando um servidor local. Isso é uma prática comum no desenvolvimento web, pois simula um ambiente de produção e elimina muitas das limitações de segurança do navegador.
+
+Entre na pasta www e use o http-server do Node.js:
+
+```bash
+npx http-server .
+```
