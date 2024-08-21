@@ -5,7 +5,7 @@ Este é um exemplo de uso da biblioteca "capacitor" para gerar aplicativos móve
 Para instalar as dependências:
 
 ```bash
-npm install
+npm install ou bun install
 ```
 
 Adicione a plataforma Android ao projeto:
