@@ -1,5 +1,6 @@
 # simple-capacitor-app
-Este é um exemplo de uso da biblioteca "capacitor" para gerar aplicativos móveis a partir de aplicações web
+Este é um exemplo de uso da biblioteca "capacitor" para gerar aplicativos móveis a partir de aplicações web. Eu fiz o uso da biblioteca Three.js para exemplificar o uso do canvas para renderização 3D.
+
 
 Para instalar as dependências:
 
