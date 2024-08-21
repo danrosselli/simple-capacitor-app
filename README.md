@@ -5,7 +5,7 @@ Este é um exemplo de uso da biblioteca "capacitor" para gerar aplicativos móve
 Para instalar as dependências:
 
 ```bash
-npm install ou bun install
+npm install
 ```
 
 Adicione a plataforma Android ao projeto:
@@ -41,3 +41,13 @@ Entre na pasta www e use o http-server do Node.js:
 ```bash
 npx http-server .
 ```
+Caso queira usar o "bun" para executar a aplicação, substitua os comandos acima por:
+
+```bash
+bun install
+bunx cap add android
+bunx cap sync
+bunx cap serve android
+bunx http-server .
+```
+
