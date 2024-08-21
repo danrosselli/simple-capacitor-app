@@ -47,6 +47,7 @@ Caso queira usar o "bun" para executar a aplicação, substitua os comandos acim
 bun install
 bunx cap add android
 bunx cap sync
+bunx cap open android
 bunx cap serve android
 bunx http-server .
 ```
